@@ -1,0 +1,86 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[english]{babel}
+\usepackage{graphicx, ctable, url}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{lscape}
+\usepackage{subfig}
+\usepackage{afterpage}
+\usepackage{tabu}
+\usepackage{listings} % source listings
+\lstloadlanguages{java}
+\lstset{keywordstyle=\ttfamily\bfseries}
+\lstset{flexiblecolumns=true}
+\lstset{commentstyle=\ttfamily\itshape}
+
+\newcounter{magicrownumbers}
+\newcommand \nextnumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}} %for counter for  agendas.  the variable \nextnumber increments automatically.
+
+\begin{document}
+
+\title{Minutes Meeting}
+\author{Author}
+\date{\today}
+
+\maketitle	
+\section{Meeting Information}
+			\textbf{Date:} \\
+			\textbf{Time:} \\
+			\textbf{Place:}\\
+	\subsection{Members Present}
+Following members were present:
+			\begin{itemize}
+				\item Author 
+				\item
+			\end{itemize}
+		\subsection{Member Apologies}
+Following members were absent:
+				\begin{itemize}
+				\item 
+				\end{itemize}
+		
+	\subsection{Revision History}
+			\begin{tabular}{c | l | l }
+				\textbf{Rev.} & \textbf{Date} & \textbf{Description} \\
+				\hline
+				1.0 &  & First draft\\
+				1.1 & & Second draft \\
+				
+
+			\end{tabular}		
+
+%Agenda
+%Discussion
+%Action
+\newpage
+\section{Discussion}
+\setcounter{magicrownumbers}{0} % use this whenever you want to reset a counter. argument to the function is the value you want to initialise it. 
+\begin{itemize}
+	\item [\textbf{Agenda \nextnumber}]  
+	\item [Discussion]
+	\item [Action]
+\end{itemize}
+
+\begin{itemize}
+	\item [\textbf{Agenda \nextnumber }] 
+	\item [Discussion]  	
+	
+	\item [Action] 
+\end{itemize}
+
+
+
+  
+\section{Next Meeting}
+		\textbf{Date:} To be decided\\
+		\textbf{Time:} To be decided \\
+		\textbf{Place:} To be decided\\
+	
+	\subsection{Agenda}
+				
+\begin{thebibliography}{99}
+\bibitem{site1} 
+\bibitem{site2} 
+\end{thebibliography}	
+		
+\end{document}

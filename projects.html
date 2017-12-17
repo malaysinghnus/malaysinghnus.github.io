@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Malay SINGH</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="./assets/css/bootstrap.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				padding-top: 20px;
+				padding-bottom: 60px;
+			}
+
+			/* Custom container */
+			.container {
+				margin: 0 auto;
+				max-width: 1000px;
+			}
+			.container > hr {
+				margin: 60px 0;
+			}
+
+			/* Main marketing message and sign up button */
+			.jumbotron {
+				margin: 80px 0;
+				text-align: center;
+			}
+			.jumbotron h1 {
+				font-size: 100px;
+				line-height: 1;
+			}
+			.jumbotron .lead {
+				font-size: 24px;
+				line-height: 1.25;
+			}
+			.jumbotron .btn {
+				font-size: 21px;
+				padding: 14px 24px;
+			}
+
+			/* Supporting marketing content */
+			.marketing {
+				margin: 60px 0;
+			}
+			.marketing p + h4 {
+				margin-top: 28px;
+			}
+
+
+			/* Customize the navbar links to be fill the entire space of the .navbar */
+			.navbar .navbar-inner {
+				padding: 0;
+			}
+			.navbar .nav {
+				margin: 0;
+				float: none;
+			}
+			.navbar .nav li {
+				display: table-cell;
+				width: 1%;
+				float: none;
+			}
+			.navbar .nav li a {
+				font-weight: bold;
+				text-align: center;
+				border-left: 1px solid rgba(255,255,255,.75);
+				border-right: 1px solid rgba(0,0,0,.1);
+			}
+			.navbar .nav li:first-child a {
+				border-left: 0;
+				border-radius: 3px 0 0 3px;
+			}
+			.navbar .nav li:last-child a {
+				border-right: 0;
+				border-radius: 0 3px 3px 0;
+			}
+		</style>
+		<link href=./assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- Fav and touch icons -->
+		<link rel="shortcut icon" href="http://www.comp.nus.edu.sg/favicon.ico">
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="masthead">
+				<h1 class="muted">Malay SINGH</h1>
+				<div class="navbar">
+					<div class="navbar-inner">
+						<div class="container">
+							<ul class="nav">
+								<li> <a href="index.html">Home</a></li>
+								<li> <a href="research.html">Research</a></li>
+								<li class = "active"> <a href="projects.html">Projects</a></li>
+								<li><a href="goodies.html">Goodies</a></li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- /.navbar -->
+			</div>
+
+			<!-- Jumbotron -->
+			<div class="hero-unit">
+				<h2>Projects</h2>
+				<p>
+				<dl>
+				
+					<dt>Nuclear Pleomorphism in Renal Clear Cell Cancer</dt>
+					<dd> <b> Duration: June 2015 - </b> <br>
+					
+					The characteristics of the nuclei are often observed by pathologists when they assess the progression and presence of cancer cells in tissue biopsies. Cancerous tissue typically contains cells with enlarged, irregularly-shaped (pleomorphic) and darkly-stained (hyperchromasia) nuclei with prominent nucleoli. However, at different stages of the disease, the nuclear structure and prominence of nucleoli can change. The Fuhrman grading system for clear cell Renal Cell Carcinoma (ccRCC) was developed around these observed changes in the nuclei. It provides rules to classify the different stages of disease progression. Early stage ccRCC tumors typically have small, round nuclei with inconspicuous nucleoli, while late stage tumors have enlarged and irregularly-shaped nuclei with prominent nucleoli. Following on from our work on nucleoli detection, we have developed new machine learning methodologies to perform automatic grading of ccRCC histopathological images. From the histopathological images, we extract features describing the properties of multiple nuclei concurrently. This enables us to train classifiers that can distinguish the level of pleomorphism of the nuclei in the tissue sample, resulting in a higher accuracy in the automated grading. 
+					<br> 
+					<b>A revised manuscript has been submitted to JCO Clinical Cancer Informatics  journal in September, 2017</b>
+					<dd>
+					<br>
+				
+					<dt>Gland Segmentation in Prostate Histopathological Images </dt>
+					<dd> <b> Duration: June 2015 - June 2017</b> <br>
+Glandular structural features are important for the tumor pathologist in the assessment of cancer malignancy of prostate tissue slides. The varying shape and size of glands combined with tedious manual task can result in inaccurate assessment. There are also discrepancies and low level agreement among pathologists especially in cases of Gleason pattern 3 and pattern 4 prostate adenocarcinoma. We have developed an intelligent software to improve accuracy and reduce labor of gland structure assessment on Haematoxylin and Eosin (H&E) stained prostate tissue slides. Our method can easily fit into the existing workflow of the pathologist. Prostate cancer glands with their varying shapes, structures, and size pose an extreme challenge for automated gland segmentation systems. Our method achieved an averaged Jaccard Index score of 0.54 (range is [0,1], higher value is better) while outperforming various existing softwares in the literature.  
+					<br> 
+					<b>Published in the Journal of Medical Imaging (June, 2017) </b>
+					(<a href="http://dx.doi.org/10.1117/1.JMI.4.2.027501">JMI</a>). 
+					<dd>
+					<br>
+
+
+				
+					<dt>Automated Image Based Prominent Nucleoli Detection </dt>
+					<dd> <b> Duration: May 2013 - June 2015</b> <br>
+					The diagnosis and prognosis of cancers are major issue for a trained pathologist. 
+					Inter-observer variability and tediousness of tissue reading 
+					hamper the accuracy of assessment 
+					by the pathologist. The analysis of prominent nucleoli is one 
+					of the main methods of cancer assessment. 
+					We have developed an intelligent software to improve accuracy and reduce labor of tissue 
+					reading of prominent nucleoli assessment on H&E stained slides. Our method can easily fit 
+					into the existing workflow of the pathologists work.
+					<br> 
+					<b>Published in the Journal of Pathology Informatics.  (June, 2017) </b>
+					<a href="http://www.jpathinformatics.org/article.asp?issn=2153-3539;year=2015;volume=6;issue=1;spage=39;epage=39;aulast=Yap">JPI</a>
+					<dd>
+					<br>
+
+
+
+					<dt>Speech Retrieval </dt>
+					<dd> <b> Duration: January 2012 - July 2012 </b> <br>
+					The Project  presents an approach to multi-modal processing in speech technology. We suggested and implemented the idea of how a Speech corpus
+					containing large 
+					amount of audio data can be transcribed offline and used on-the fly by a simple text index. We proposed  a novel  approach to corpus
+					storage in groups which would help in turn to categorize the data stored. During retrieval process the groups to be searched may be defined.
+					<br> <b>Presented in IMPACT 2013. </b> <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6782085">IEEEXplore</a>
+						<dd>
+						<br>
+
+						<dt> Human Emotion Recognition </dt>
+						<dd> <b> Duration: July 2011 - December 2011 </b> <br>
+						In this project, we made a emotion recognition software. The software was trained over a dataset collected by survey of IIITA Students. We asked to tag
+						a certain Hindi Song for emotion the songs as it depicts to them. The four emotions are Happy,Sad,Anger,Calm. We classified a new song using Artificial
+						Neural Network and K- Nearest Neighbor Implementation in C++. The song corpus consisted the Hindi Songs from 1950's.
+						</dd>
+						<br>
+
+						<dt> Optimization of CO<sub>2</sub> Injectivity in Geological Carbon Storage </dt>
+						<dd> <b> Duration: May 2011 - July 2011 </b> <br>
+						In this project, we implemented a model of Oil reservoirs. We tried to infer a relation between Well location and migration of CO<sub>2</sub> in depleted or
+						near-depleted Oil Reservoirs.We were to optimize the amount of Carbon Dioxide injected into the reservoir within the constraints of Parameters like
+						Bottom Hole Pressure, Permeability and Porosity of Rocks.
+						</dd>
+						<br>
+
+						<dt> A Cognitive Interactive Framework for Multi-document Summarizer </dt>
+						<dd> <b> Duration:January 2011 - May 2011 </b> <br> 
+						In this project, we made a generic interactive framework based on human cognition, where the system can learn continuously from the Internet and
+						from its interaction with the users. To show the utilization of this framework, Iintelli, an agent based application for multiple text document
+						summarization was developed and compared with the MEAD on the Cran Data Set. The human knowledge and experience were represented through fuzzy
+						logic-based word-mesh and sentence-mesh which can learn. Learning was performed using the competitive models Maxnet and Mexican Hat.
+						<br> <b>Presented in IHCI 2011.  <a
+								href="http://link.springer.com/content/pdf/10.1007%2F978-3-642-31603-6_22.pdf"> SpringerLink</a></b>
+						</dd>
+						<br>	
+
+						<dt> K - Coverage in Wireless Sensor Networks</dt>
+						<dd> <b> Duration: July 2010 -  November 2010</b> <br>
+						For a given area A with randomly placed wireless sensor nodes,  we designed an algorithm to schedule the sensors so as to maximize the network lifetime while at the same time ensuring that subsets of the given  area (A<sub>1</sub>,A<sub>2</sub>,.., A<sub>n</sub>) are(k<sub>1</sub>,k<sub>2</sub>,..,k<sub>n</sub> )-covered respectively. Probabilistic model was implemented to improve upon network lifetime for sensor networks. </dd>
+						<br>
+
+
+
+					</dl>
+
+
+					</p>
+				</div>
+
+				<hr>
+
+
+				<div class="footer">
+					<address>
+						<a href="mailto:malay@comp.nus.edu.sg">malay@comp.nus.edu.sg</a>
+					</address>
+
+				</div> <!-- /container -->
+
+				<!-- Le javascript
+				================================================== -->
+				<!-- Placed at the end of the document so the pages load faster -->
+				<script src="./assets/js/jquery.js"></script>
+				<script src="./assets/js/bootstrap-transition.js"></script>
+				<script src="./assets/js/bootstrap-alert.js"></script>
+				<script src="./assets/js/bootstrap-modal.js"></script>
+				<script src="./assets/js/bootstrap-dropdown.js"></script>
+				<script src="./assets/js/bootstrap-scrollspy.js"></script>
+				<script src="./assets/js/bootstrap-tab.js"></script>
+				<script src="./assets/js/bootstrap-tooltip.js"></script>
+				<script src="./assets/js/bootstrap-popover.js"></script>
+				<script src="./assets/js/bootstrap-button.js"></script>
+				<script src="./assets/js/bootstrap-collapse.js"></script>
+				<script src="./assets/js/bootstrap-carousel.js"></script>
+				<script src="./assets/js/bootstrap-typeahead.js"></script>
+
+			</body>
+		</html>

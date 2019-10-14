@@ -1,6 +1,2 @@
 # profile
-Home Page
-This is my web page.
-
--
-Malay Singh
+This is my web page describing my research and projects.
